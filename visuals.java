@@ -67,8 +67,8 @@ public class visuals extends Frame {
     }
     
     public static double randomValue() {
-    	return 2*(forceConstant * (Math.random()-.5));
-    	//return -0.2011023416280407;
+    	//return 2*(forceConstant * (Math.random()-.5));
+    	return -0.2011023416280407;
     }
     
 	public void addParticle(Particle particle) {
